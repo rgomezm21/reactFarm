@@ -73,13 +73,19 @@ const navigationConfig = [
 				title: 'Contactos',
 				translate: 'CONTACTOS',
 				type: 'collapse',
-				icon: 'dashboard',
+				icon: 'account_box',
 				children: [
 					{
-						id: 'prueba',
-						title: 'Prueba',
+						id: 'cliente-page',
+						title: 'Cliente',
 						type: 'item',
-						url: '/prueba'
+						url: '/cliente'
+					},
+					{
+						id: 'proveedor-page',
+						title: 'Proveedor',
+						type: 'item',
+						url: '/proveedor'
 					}
 				]
 			},
